@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root{
+  --mind-black:#111111;
+  --core-gold:#D4AF37;
+  --crimson:#C62828;
+  --emerald:#16A34A;
+  --bg:#F8F9FA;
+  --text:#1F2937;
+
+  --radius:18px;
+
+  --shadow:0 10px 30px rgba(0,0,0,.10);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Inter',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+
+h1,h2,h3,h4{
+  font-family:'Poppins',sans-serif;
+}
